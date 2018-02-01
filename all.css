@@ -1,0 +1,9 @@
+/* TODO: add slide to left transition to fake earth rotate */
+.carousel-item {
+  opacity: 0.9;
+  transition-property: opacity;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
